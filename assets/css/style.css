@@ -24,12 +24,19 @@ h3{
 
 h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #ffffff;
+}
+
+a{
+    color: #777777;
+    size: 0.7em;
+    text-decoration: none;
 }
 
 header{
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+
 }
 
 div.headerContent{
@@ -50,6 +57,8 @@ div.headerContent nav{
     float: right;
     vertical-align: middle;
     margin-top: 30px;
+    color: #cccccc;
+
 }
 
 header::after{
@@ -62,9 +71,11 @@ header::after{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
+    line-height: 1.5;
 }
 
 footer{
@@ -77,5 +88,77 @@ footer{
     width: 100%;
     height: 60px;
     text-align: center;
+    font-size: 66%;
+}
 
+footer p{
+    margin-top: 45px;
+}
+
+.mainContentTitle{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #cccccc;
+}
+
+.mainContent{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+.mainContent p{
+    margin-top: 0;
+}
+
+#selfie{
+    float: left;
+    margin-right: 20px;
+}
+
+.mainContent input{
+    width: 99.5%;
+    margin-bottom: 15px;
+}
+
+.mainContent textarea{
+    width: 99.3%;
+    margin-bottom: 15px;
+}
+#button{
+    width: fit-content;
+    text-align: center;
+    padding: 15px 32px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.slide{
+    width: 180px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 30px; 
+    position: relative;
+    
+}
+
+.desc{
+    width: 100%;
+    text-align: center;    
+    color: #ffffff;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+    height: 40px;
+}
+
+.desc p{
+    line-height: 40px;
 }
