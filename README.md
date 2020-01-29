@@ -1,4 +1,4 @@
-# homework_1
+# Portfolio Site v1
 Personal Portfolio Page - Bootcamp Homework 1
 
 ## Description 
